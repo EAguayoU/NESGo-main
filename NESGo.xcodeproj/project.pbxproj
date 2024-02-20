@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E93B75B2B839AD400A45FDE /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93B75A2B839AD400A45FDE /* SideBar.swift */; };
+		6E93B75D2B83D4D100A45FDE /* Cargando.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6E93B75C2B83D4D000A45FDE /* Cargando.gif */; };
+		6E93B75F2B8400EE00A45FDE /* mLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E93B75E2B8400EE00A45FDE /* mLedger.swift */; };
+		6E94B4FD2B851E960051A8CB /* mWarehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94B4FC2B851E960051A8CB /* mWarehouse.swift */; };
+		6E94B5002B852D450051A8CB /* mMovementType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E94B4FF2B852D450051A8CB /* mMovementType.swift */; };
+		FE20D3962B7AE049008F328A /* mCryptPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE20D3952B7AE049008F328A /* mCryptPass.swift */; };
+		FE3865B02B7C1AFF00768CD4 /* vw_dbo_Sliding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3865AF2B7C1AFF00768CD4 /* vw_dbo_Sliding.swift */; };
+		FE3865B22B7C307F00768CD4 /* mMenuAndroidUserRol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3865B12B7C307F00768CD4 /* mMenuAndroidUserRol.swift */; };
+		FE7878332B7E7C8000497E5C /* WIN_wms_Ledger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7878322B7E7C8000497E5C /* WIN_wms_Ledger.swift */; };
+		FE7878352B7E982F00497E5C /* WIN_wms_ItemInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7878342B7E982F00497E5C /* WIN_wms_ItemInventory.swift */; };
+		FE7878372B7ED44A00497E5C /* vw_dbo_Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7878362B7ED44A00497E5C /* vw_dbo_Principal.swift */; };
+		FE7878392B7ED4DB00497E5C /* vw_dbo_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7878382B7ED4DB00497E5C /* vw_dbo_Login.swift */; };
+		FE83FC9E2B752BA50088904D /* NESGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83FC9D2B752BA50088904D /* NESGoApp.swift */; };
+		FE83FCA22B752BA90088904D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE83FCA12B752BA90088904D /* Assets.xcassets */; };
+		FE83FCA52B752BA90088904D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE83FCA42B752BA90088904D /* Preview Assets.xcassets */; };
+		FE83FCAF2B752F7D0088904D /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83FCAE2B752F7D0088904D /* Tools.swift */; };
+		FE83FCB12B755F1E0088904D /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83FCB02B755F1E0088904D /* Styles.swift */; };
+		FE83FCB92B757CDC0088904D /* clApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83FCB82B757CDC0088904D /* clApiRequest.swift */; };
+		FE83FCBB2B757FBA0088904D /* clApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE83FCBA2B757FBA0088904D /* clApiResponse.swift */; };
+		FE84C05F2B76EBA700189C9B /* mUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE84C05E2B76EBA700189C9B /* mUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E93B75A2B839AD400A45FDE /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		6E93B75C2B83D4D000A45FDE /* Cargando.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Cargando.gif; sourceTree = "<group>"; };
+		6E93B75E2B8400EE00A45FDE /* mLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mLedger.swift; sourceTree = "<group>"; };
+		6E94B4FC2B851E960051A8CB /* mWarehouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mWarehouse.swift; sourceTree = "<group>"; };
+		6E94B4FF2B852D450051A8CB /* mMovementType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mMovementType.swift; sourceTree = "<group>"; };
+		FE20D3952B7AE049008F328A /* mCryptPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mCryptPass.swift; sourceTree = "<group>"; };
+		FE3865AF2B7C1AFF00768CD4 /* vw_dbo_Sliding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vw_dbo_Sliding.swift; sourceTree = "<group>"; };
+		FE3865B12B7C307F00768CD4 /* mMenuAndroidUserRol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mMenuAndroidUserRol.swift; sourceTree = "<group>"; };
+		FE7878322B7E7C8000497E5C /* WIN_wms_Ledger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIN_wms_Ledger.swift; sourceTree = "<group>"; };
+		FE7878342B7E982F00497E5C /* WIN_wms_ItemInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WIN_wms_ItemInventory.swift; sourceTree = "<group>"; };
+		FE7878362B7ED44A00497E5C /* vw_dbo_Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vw_dbo_Principal.swift; sourceTree = "<group>"; };
+		FE7878382B7ED4DB00497E5C /* vw_dbo_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vw_dbo_Login.swift; sourceTree = "<group>"; };
+		FE83FC9A2B752BA50088904D /* NESGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE83FC9D2B752BA50088904D /* NESGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESGoApp.swift; sourceTree = "<group>"; };
+		FE83FCA12B752BA90088904D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE83FCA42B752BA90088904D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE83FCAE2B752F7D0088904D /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		FE83FCB02B755F1E0088904D /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		FE83FCB82B757CDC0088904D /* clApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clApiRequest.swift; sourceTree = "<group>"; };
+		FE83FCBA2B757FBA0088904D /* clApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clApiResponse.swift; sourceTree = "<group>"; };
+		FE84C05E2B76EBA700189C9B /* mUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mUser.swift; sourceTree = "<group>"; };
+		FEBBF6FD2B7682A300C7FD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE83FC972B752BA50088904D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E94B4FB2B851E140051A8CB /* WMS */ = {
+			isa = PBXGroup;
+			children = (
+				6E93B75E2B8400EE00A45FDE /* mLedger.swift */,
+				6E94B4FF2B852D450051A8CB /* mMovementType.swift */,
+			);
+			path = WMS;
+			sourceTree = "<group>";
+		};
+		6E94B4FE2B851EA20051A8CB /* Warehouse */ = {
+			isa = PBXGroup;
+			children = (
+				6E94B4FC2B851E960051A8CB /* mWarehouse.swift */,
+			);
+			path = Warehouse;
+			sourceTree = "<group>";
+		};
+		FE7878312B7E7C5E00497E5C /* WMS */ = {
+			isa = PBXGroup;
+			children = (
+				FE7878322B7E7C8000497E5C /* WIN_wms_Ledger.swift */,
+				FE7878342B7E982F00497E5C /* WIN_wms_ItemInventory.swift */,
+			);
+			path = WMS;
+			sourceTree = "<group>";
+		};
+		FE83FC912B752BA50088904D = {
+			isa = PBXGroup;
+			children = (
+				FE83FC9C2B752BA50088904D /* NESGo */,
+				FE83FC9B2B752BA50088904D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE83FC9B2B752BA50088904D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE83FC9A2B752BA50088904D /* NESGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE83FC9C2B752BA50088904D /* NESGo */ = {
+			isa = PBXGroup;
+			children = (
+				FEBBF6FD2B7682A300C7FD3F /* Info.plist */,
+				FE83FCB42B757AD30088904D /* Models */,
+				FE83FCAD2B752F580088904D /* Tools */,
+				FE83FCAB2B752C180088904D /* Views */,
+				FE83FC9D2B752BA50088904D /* NESGoApp.swift */,
+				FE83FCA12B752BA90088904D /* Assets.xcassets */,
+				FE83FCA32B752BA90088904D /* Preview Content */,
+			);
+			path = NESGo;
+			sourceTree = "<group>";
+		};
+		FE83FCA32B752BA90088904D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE83FCA42B752BA90088904D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE83FCAB2B752C180088904D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE7878312B7E7C5E00497E5C /* WMS */,
+				FE84C0592B76EA3100189C9B /* Main */,
+				6E93B75A2B839AD400A45FDE /* SideBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE83FCAD2B752F580088904D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6E93B75C2B83D4D000A45FDE /* Cargando.gif */,
+				FE83FCAE2B752F7D0088904D /* Tools.swift */,
+				FE83FCB02B755F1E0088904D /* Styles.swift */,
+				FE83FCB82B757CDC0088904D /* clApiRequest.swift */,
+				FE83FCBA2B757FBA0088904D /* clApiResponse.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE83FCB42B757AD30088904D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E94B4FE2B851EA20051A8CB /* Warehouse */,
+				6E94B4FB2B851E140051A8CB /* WMS */,
+				FEBBF6FE2B7692A400C7FD3F /* Security */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE84C0592B76EA3100189C9B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE3865AF2B7C1AFF00768CD4 /* vw_dbo_Sliding.swift */,
+				FE7878362B7ED44A00497E5C /* vw_dbo_Principal.swift */,
+				FE7878382B7ED4DB00497E5C /* vw_dbo_Login.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FEBBF6FE2B7692A400C7FD3F /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				FE84C05E2B76EBA700189C9B /* mUser.swift */,
+				FE20D3952B7AE049008F328A /* mCryptPass.swift */,
+				FE3865B12B7C307F00768CD4 /* mMenuAndroidUserRol.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE83FC992B752BA50088904D /* NESGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE83FCA82B752BA90088904D /* Build configuration list for PBXNativeTarget "NESGo" */;
+			buildPhases = (
+				FE83FC962B752BA50088904D /* Sources */,
+				FE83FC972B752BA50088904D /* Frameworks */,
+				FE83FC982B752BA50088904D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESGo;
+			productName = NESGo;
+			productReference = FE83FC9A2B752BA50088904D /* NESGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE83FC922B752BA50088904D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FE83FC992B752BA50088904D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FE83FC952B752BA50088904D /* Build configuration list for PBXProject "NESGo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE83FC912B752BA50088904D;
+			productRefGroup = FE83FC9B2B752BA50088904D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE83FC992B752BA50088904D /* NESGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE83FC982B752BA50088904D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E93B75D2B83D4D100A45FDE /* Cargando.gif in Resources */,
+				FE83FCA52B752BA90088904D /* Preview Assets.xcassets in Resources */,
+				FE83FCA22B752BA90088904D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE83FC962B752BA50088904D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE83FCBB2B757FBA0088904D /* clApiResponse.swift in Sources */,
+				FE83FCAF2B752F7D0088904D /* Tools.swift in Sources */,
+				FE3865B02B7C1AFF00768CD4 /* vw_dbo_Sliding.swift in Sources */,
+				FE7878352B7E982F00497E5C /* WIN_wms_ItemInventory.swift in Sources */,
+				FE83FCB92B757CDC0088904D /* clApiRequest.swift in Sources */,
+				FE7878332B7E7C8000497E5C /* WIN_wms_Ledger.swift in Sources */,
+				FE3865B22B7C307F00768CD4 /* mMenuAndroidUserRol.swift in Sources */,
+				6E93B75B2B839AD400A45FDE /* SideBar.swift in Sources */,
+				6E93B75F2B8400EE00A45FDE /* mLedger.swift in Sources */,
+				FE84C05F2B76EBA700189C9B /* mUser.swift in Sources */,
+				FE20D3962B7AE049008F328A /* mCryptPass.swift in Sources */,
+				6E94B4FD2B851E960051A8CB /* mWarehouse.swift in Sources */,
+				FE83FC9E2B752BA50088904D /* NESGoApp.swift in Sources */,
+				6E94B5002B852D450051A8CB /* mMovementType.swift in Sources */,
+				FE83FCB12B755F1E0088904D /* Styles.swift in Sources */,
+				FE7878392B7ED4DB00497E5C /* vw_dbo_Login.swift in Sources */,
+				FE7878372B7ED44A00497E5C /* vw_dbo_Principal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE83FCA62B752BA90088904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE83FCA72B752BA90088904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE83FCA92B752BA90088904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NESGo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U46C47Z9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NESGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niceonline.NESGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE83FCAA2B752BA90088904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NESGo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U46C47Z9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NESGo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niceonline.NESGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE83FC952B752BA50088904D /* Build configuration list for PBXProject "NESGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE83FCA62B752BA90088904D /* Debug */,
+				FE83FCA72B752BA90088904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE83FCA82B752BA90088904D /* Build configuration list for PBXNativeTarget "NESGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE83FCA92B752BA90088904D /* Debug */,
+				FE83FCAA2B752BA90088904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE83FC922B752BA50088904D /* Project object */;
+}
